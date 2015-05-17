@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="All" />
+	<File name="activator.cpp" open="1" top="1" tabpos="17">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="activator.h" open="1" top="0" tabpos="5">
+		<Cursor position="91" topLine="0" />
+	</File>
+	<File name="aspect.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="453" topLine="24" />
+	</File>
+	<File name="aspect.h" open="1" top="0" tabpos="4">
+		<Cursor position="357" topLine="13" />
+	</File>
+	<File name="bxmlnode.cpp" open="1" top="0" tabpos="15">
+		<Cursor position="15063" topLine="398" />
+	</File>
+	<File name="bxmlnode.h" open="1" top="0" tabpos="16">
+		<Cursor position="819" topLine="13" />
+	</File>
+	<File name="coloraspect.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="786" topLine="11" />
+	</File>
+	<File name="coloraspect.h" open="1" top="0" tabpos="8">
+		<Cursor position="69" topLine="0" />
+	</File>
+	<File name="distanceaspect.h" open="0" top="0" tabpos="0">
+		<Cursor position="699" topLine="3" />
+	</File>
+	<File name="distributions.h" open="0" top="0" tabpos="0">
+		<Cursor position="202" topLine="0" />
+	</File>
+	<File name="educationlevelaspect.h" open="0" top="0" tabpos="0">
+		<Cursor position="631" topLine="7" />
+	</File>
+	<File name="employeraspect.cpp" open="1" top="0" tabpos="18">
+		<Cursor position="1947" topLine="76" />
+	</File>
+	<File name="employeraspect.h" open="0" top="0" tabpos="0">
+		<Cursor position="116" topLine="0" />
+	</File>
+	<File name="framework.h" open="1" top="0" tabpos="7">
+		<Cursor position="168" topLine="0" />
+	</File>
+	<File name="geographyaspect.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="969" topLine="26" />
+	</File>
+	<File name="geographyaspect.h" open="0" top="0" tabpos="0">
+		<Cursor position="421" topLine="2" />
+	</File>
+	<File name="linksaspect.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="8539" topLine="265" />
+	</File>
+	<File name="linksaspect.h" open="0" top="0" tabpos="0">
+		<Cursor position="99" topLine="0" />
+	</File>
+	<File name="linksaspectevaluation.cpp" open="1" top="0" tabpos="19">
+		<Cursor position="592" topLine="21" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="174" topLine="0" />
+	</File>
+	<File name="marriageaspect.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="53" topLine="0" />
+	</File>
+	<File name="marriageaspect.h" open="1" top="0" tabpos="9">
+		<Cursor position="126" topLine="3" />
+	</File>
+	<File name="model.xml" open="0" top="0" tabpos="0">
+		<Cursor position="289" topLine="5" />
+	</File>
+	<File name="netmodel.xml" open="1" top="0" tabpos="3">
+		<Cursor position="136" topLine="0" />
+	</File>
+	<File name="output.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="42" topLine="0" />
+	</File>
+	<File name="output.h" open="1" top="0" tabpos="12">
+		<Cursor position="244" topLine="11" />
+	</File>
+	<File name="outputaggregation.cpp" open="1" top="0" tabpos="13">
+		<Cursor position="4154" topLine="186" />
+	</File>
+	<File name="outputaggregation.h" open="1" top="0" tabpos="14">
+		<Cursor position="333" topLine="22" />
+	</File>
+	<File name="population.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="152" topLine="6" />
+	</File>
+	<File name="population.h" open="1" top="0" tabpos="1">
+		<Cursor position="5292" topLine="178" />
+	</File>
+	<File name="socialcircleaspect.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1033" topLine="30" />
+	</File>
+	<File name="socialcircleaspect.h" open="1" top="0" tabpos="10">
+		<Cursor position="375" topLine="9" />
+	</File>
+</CodeBlocks_layout_file>

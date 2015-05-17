@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<ModelConfiguration>
+	<Run>
+		<Loops>500</Loops>
+		<StatusUpdateStep>5</StatusUpdateStep>
+	</Run>
+	<Populations>
+		<Personas>
+			<Size>1000</Size>
+			<Aspects>
+				<Links/>
+				<EducationLevel/>
+				<Distance/>
+				<SocialCircle/>
+				<Geography/>
+			</Aspects>
+		</Personas>
+	</Populations>
+	<Aspects>
+		<Links>
+			<Seed>25</Seed>
+			<Friend_Probability>0.5</Friend_Probability>
+			<Random_Probability>0.5</Random_Probability>
+			<Delete_Probability>0.01</Delete_Probability>
+			<Alfa>0.5</Alfa>
+			<Homophilia>0.8</Homophilia>
+			<Heterophilia>0.5</Heterophilia>
+		</Links>
+		<EducationLevel><!-- dim[levels]-->
+			<Levels>3</Levels>
+			<ToleranceHomophilia>.5</ToleranceHomophilia>
+			<ToleranceHeterophilia>.5</ToleranceHeterophilia>
+			<Seed>25</Seed>
+		</EducationLevel>
+		<SocialCircle><!-- dim[circ]-->
+			<Circles>5</Circles>
+			<Seed>25</Seed>
+		</SocialCircle>
+		<Distance>
+			<!-- Delta: Parameter for geographic distance
+			            (Generic Minkowski metric)
+						delta = 1: Manhattan
+						delta = 2: Euclid
+			-->
+			<Delta>1</Delta>
+		</Distance>
+		<Geography>
+			<Width>50</Width> <!-- dim[xc]-->
+			<FocusWidth>3</FocusWidth> <!-- Focus -->
+			<Height>100</Height> <!-- dim[yc]-->
+			<FocusHeight>3</FocusHeight> <!-- Focus -->
+			<Seed>25</Seed>
+		</Geography>
+	</Aspects>
+	<Outputs>
+		<Output>
+			<Filename>nodos_all.txt</Filename>
+			<Headers>Yes</Headers>
+			<Population>Personas</Population>
+			<Type>List</Type>
+			<Loops>12</Loops>
+			<Fields>
+				<Links>
+					<Field>Degree</Field>
+					<Field>Clustering</Field>
+					<Field>MeanShortest</Field>
+					<Field>Closeness</Field>
+					<Field>Betweenness</Field>
+					<Field>SizeComponent</Field>
+					<Field>MaxDiameter</Field>
+				</Links>
+				<Geography>
+					<Field>X</Field>
+					<Field>Y</Field>
+				</Geography>
+				<SocialCircle>
+					<Field>Circle</Field>
+				</SocialCircle>
+			</Fields>
+		</Output>
+		<Output>
+			<Filename>nodos_summary.txt</Filename>
+			<Headers>Yes</Headers>
+			<Population>Personas</Population>
+			<Type>Aggregate</Type>
+			<Loops>12</Loops>
+			<Fields>
+				<Links>
+					<!-- [Operation] = optional
+								Valid operations are:
+								Average, Sum, Min, Max, Median, Count,
+								Percentaje (usage: Percentage value="value")
+						 Default operation is Average. -->
+					<Field Operation="Average">Degree</Field>
+					<Field Operation="Sum">Degree</Field>
+					<Field Operation="Average">Clustering</Field>
+					<Field Operation="Max">MaxDiameter</Field>
+					<Field Operation="Average">Betweenness</Field>
+				</Links>
+			</Fields>
+		</Output>
+	</Outputs>
+</ModelConfiguration>
